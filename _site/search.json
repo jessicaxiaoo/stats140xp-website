@@ -1,73 +1,45 @@
 [
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Jessica Xiao",
-    "section": "",
-    "text": "DOWNLOAD Resume\nFinley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
-  },
-  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Jessica Xiao",
     "section": "",
-    "text": "DOWNLOAD Resume\nFinley Malloc is the Chief Data Scientist at Wengo Analytics. When not innovating on data platforms, Finley enjoys spending time unicycling and playing with her pet iguana."
-  },
-  {
-    "objectID": "about.html#education",
-    "href": "about.html#education",
-    "title": "Jessica Xiao",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "about.html#experience",
-    "href": "about.html#experience",
-    "title": "Jessica Xiao",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
-  },
-  {
-    "objectID": "projects.html",
-    "href": "projects.html",
-    "title": "Projects",
-    "section": "",
-    "text": "Here is my project 1"
-  },
-  {
-    "objectID": "projects.html#education",
-    "href": "projects.html#education",
-    "title": "Jessica Xiao",
-    "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
-  },
-  {
-    "objectID": "projects.html#experience",
-    "href": "projects.html#experience",
-    "title": "Jessica Xiao",
-    "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Jessica Xiao is a Cognitive Science & Statistics and Data Science student at UCLA. When she’s not analyzing datasets or designing wireframes, you can find her exploring new cafes for the perfect study spot, curating Spotify playlists, or playing the piano and guitar."
   },
   {
     "objectID": "index.html#education",
     "href": "index.html#education",
     "title": "Jessica Xiao",
     "section": "Education",
-    "text": "Education\nUniversity of California, San Diego | San Diego, CA PhD in Mathematics | Sept 2011 - June 2015\nMacalester College | St. Paul, MN B.A in Economics | Sept 2007 - June 2011"
+    "text": "Education\nUniversity of California, Los Angeles | Los Angeles, CA\nB.S. in Cognitive Science, B.S. in Statistics and Data Science | Sept 2022 - June 2026"
   },
   {
     "objectID": "index.html#experience",
     "href": "index.html#experience",
     "title": "Jessica Xiao",
     "section": "Experience",
-    "text": "Experience\nWengo Analytics | Head Data Scientist | April 2018 - present\nGeoScynce | Chief Analyst | Spet 2012 - April 2018"
+    "text": "Experience\nBaidu USA | Product Management Intern | July 2025 - present\nPerceptual Processing & Computational Lab | Research Assistant | Feb 2025 - present"
   },
   {
-    "objectID": "projects.html#project-2",
-    "href": "projects.html#project-2",
+    "objectID": "projects/01-project.html",
+    "href": "projects/01-project.html",
+    "title": "Portfolio with Framer",
+    "section": "",
+    "text": "Welcome to my portfolio! This page highlights selected design and data projects that I built using Framer, with a focus on usability, data-driven insights, and clean visual storytelling.\nView my full Framer portfolio"
+  },
+  {
+    "objectID": "projects/02-project.html",
+    "href": "projects/02-project.html",
+    "title": "Star Charge Log Analysis",
+    "section": "",
+    "text": "Overview\n🔗 View the full GitHub repository\nThis project analyzes 300K+ EV charging log records to uncover usage patterns, charging-step behavior, and potential anomalies.\nI built reusable Python pipelines to automate cleaning, aggregation, and visualization, reducing engineering analysis time and improving interpretability."
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
     "title": "Projects",
-    "section": "Project 2",
-    "text": "Project 2\nHere is my project 2"
+    "section": "",
+    "text": "Portfolio with Framer\n\n\nPortfolio showcasing my design and data projects built using Framer!\n\n\n\n\n\n\n\n\n\n\n\n\nStar Charge Log Analysis\n\n\nEV charging behavior analysis using large-scale log data\n\n\n\n\n\n\n\n\n\n\n\n\nMapping Spotify User Listening Trends\n\n\nRecommending countries based on a user’s Spotify listening history\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "projects.html#project-1",
@@ -77,17 +49,31 @@
     "text": "Here is my project 1"
   },
   {
-    "objectID": "projects/01-project.html",
-    "href": "projects/01-project.html",
-    "title": "Project 1",
-    "section": "",
-    "text": "Some complicated stats roject\n\nrunif(10)\n\n [1] 0.7272898 0.8970024 0.7649899 0.9144700 0.9790479 0.3781947 0.3042756\n [8] 0.4087526 0.7682477 0.8013086"
+    "objectID": "projects.html#project-2",
+    "href": "projects.html#project-2",
+    "title": "Projects",
+    "section": "Project 2",
+    "text": "Project 2\nHere is my project 2"
   },
   {
-    "objectID": "projects/02-project.html",
-    "href": "projects/02-project.html",
-    "title": "Project 2",
+    "objectID": "projects/01-project.html#ux-ui-design-projects",
+    "href": "projects/01-project.html#ux-ui-design-projects",
+    "title": "Portfolio with Framer",
+    "section": "🎨 UX / UI Design Projects",
+    "text": "🎨 UX / UI Design Projects\n\nStar Charge Web Config Tool\nSimplified a Web Configuration Tool allowing B2B customers to edit fields related to electrical vehicle charging.\n\n\nDepop Redesign\nA complete redesign of Depop’s Home and Profile pages, rooted in competitor analysis, user testing, and visual consistency.\n\n\nBeReal Case Study\nIdentified key pain points for a social media app that encourages authenticity through surveys and usability testing."
+  },
+  {
+    "objectID": "projects/01-project.html#data-science-analytics-projects",
+    "href": "projects/01-project.html#data-science-analytics-projects",
+    "title": "Portfolio with Framer",
+    "section": "📊 Data Science & Analytics Projects",
+    "text": "📊 Data Science & Analytics Projects\n\nExploring Female Representation in MoMA\nA full data-storytelling project analyzing over 157k art records using R, Tableau, and WordPress.\n\n\nStar Charge Log Analysis Tool\nDeveloped tool that generates data visualizations for charging sessions of log files with 300k+ records, allowing users to filter by charging step and other attributes.\n\n\nMapping Spotify User Listening Data\nBuilt a data pipeline and interactive visualization of personal listening history using SQL, Python, and BeautifulSoup."
+  },
+  {
+    "objectID": "projects/03-project.html",
+    "href": "projects/03-project.html",
+    "title": "Mapping Spotify User Listening Trends",
     "section": "",
-    "text": "Some complicated stats roject\n\nrnorm(100) |&gt; hist()"
+    "text": "Overview\n🔗 View full project blog post\nThis project maps a user’s Spotify listening history to countries around the world, using:\n\nWeb scraping of Spotify weekly charts from kworb.net\nA SQLite database of top songs by country\nSpotify’s Web API (via Spotipy) to get a user’s top songs and artists\nA Plotly Dash web app to visualize:\n\nTop tracks\n\nTop artists\n\nRecommended countries based on music overlap\n\n\n\n\n\nData Pipeline\n\nWeb scraping Spotify weekly charts with BeautifulSoup\n\nCleaning and combining charts into a single country-level CSV\n\nLoading data into a SQLite database\n\nQuerying the DB to match a user’s top tracks to countries\n\nComputing a country score based on how many top tracks appear in each country’s charts\n\nVisualizing results with Plotly / Dash"
   }
 ]

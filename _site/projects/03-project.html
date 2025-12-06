@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>index – Jessica Xiao</title>
+<title>Mapping Spotify User Listening Trends – Jessica Xiao</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -96,7 +96,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../projects.html"> 
-<span class="menu-text">Jessica Xiao</span></a>
+<span class="menu-text">Projects</span></a>
   </li>  
 </ul>
           </div> <!-- /navcollapse -->
@@ -109,17 +109,77 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
+  <li><a href="#data-pipeline" id="toc-data-pipeline" class="nav-link" data-scroll-target="#data-pipeline">Data Pipeline</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+<main class="content" id="quarto-document-content">
+
+<header id="title-block-header" class="quarto-title-block default">
+<div class="quarto-title">
+<h1 class="title">Mapping Spotify User Listening Trends</h1>
+<p class="subtitle lead">Recommending countries based on a user’s Spotify listening history</p>
+</div>
 
 
 
+<div class="quarto-title-meta">
+
+    
+  
+    
+  </div>
+  
 
 
+</header>
 
+
+<section id="overview" class="level1">
+<h1>Overview</h1>
+<p><a href="https://jessicaxiaoo.github.io/PIC-16B-24W/posts/Project/blogpost.html">🔗 <strong>View full project blog post</strong></a></p>
+<p>This project maps a user’s <strong>Spotify listening history</strong> to countries around the world, using:</p>
+<ul>
+<li>Web scraping of <strong>Spotify weekly charts</strong> from <code>kworb.net</code></li>
+<li>A <strong>SQLite database</strong> of top songs by country</li>
+<li>Spotify’s Web API (via <strong>Spotipy</strong>) to get a user’s top songs and artists</li>
+<li>A <strong>Plotly Dash</strong> web app to visualize:
+<ul>
+<li>Top tracks<br>
+</li>
+<li>Top artists<br>
+</li>
+<li>Recommended countries based on music overlap</li>
+</ul></li>
+</ul>
+<hr>
+</section>
+<section id="data-pipeline" class="level1">
+<h1>Data Pipeline</h1>
+<ol type="1">
+<li><strong>Web scraping</strong> Spotify weekly charts with <code>BeautifulSoup</code><br>
+</li>
+<li>Cleaning and combining charts into a single <strong>country-level CSV</strong><br>
+</li>
+<li>Loading data into a <strong>SQLite</strong> database<br>
+</li>
+<li>Querying the DB to match a user’s top tracks to countries<br>
+</li>
+<li>Computing a <strong>country score</strong> based on how many top tracks appear in each country’s charts<br>
+</li>
+<li>Visualizing results with <strong>Plotly / Dash</strong></li>
+</ol>
+<hr>
+
+
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

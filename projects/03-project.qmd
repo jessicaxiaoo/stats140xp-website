@@ -1,0 +1,32 @@
+---
+title: "Mapping Spotify User Listening Trends"
+subtitle: "Recommending countries based on a user's Spotify listening history"
+image: images/spotify proj.png
+---
+
+# Overview
+
+[🔗 **View full project blog post**](https://jessicaxiaoo.github.io/PIC-16B-24W/posts/Project/blogpost.html)
+
+This project maps a user's **Spotify listening history** to countries around the world, using:
+
+- Web scraping of **Spotify weekly charts** from `kworb.net`
+- A **SQLite database** of top songs by country
+- Spotify’s Web API (via **Spotipy**) to get a user’s top songs and artists
+- A **Plotly Dash** web app to visualize:
+  - Top tracks  
+  - Top artists  
+  - Recommended countries based on music overlap  
+
+---
+
+# Data Pipeline
+
+1. **Web scraping** Spotify weekly charts with `BeautifulSoup`  
+2. Cleaning and combining charts into a single **country-level CSV**  
+3. Loading data into a **SQLite** database  
+4. Querying the DB to match a user’s top tracks to countries  
+5. Computing a **country score** based on how many top tracks appear in each country’s charts  
+6. Visualizing results with **Plotly / Dash**  
+
+---

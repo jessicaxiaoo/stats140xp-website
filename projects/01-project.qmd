@@ -1,9 +1,46 @@
 ---
-title: Project 1
+title: Portfolio with Framer
+subtitle: Portfolio showcasing my design and data projects built using Framer!
+image: images/proj1.png
 ---
 
-Some complicated stats roject
+Welcome to my portfolio! This page highlights selected design and data projects that I built using **Framer**, with a focus on usability, data-driven insights, and clean visual storytelling.
 
-```{r}
-runif(10)
-```
+[View my full Framer portfolio](https://jessicaxiao.framer.website/)
+
+---
+
+# Featured Projects
+
+## 🎨 UX / UI Design Projects
+
+### Star Charge Web Config Tool
+Simplified a Web Configuration Tool allowing B2B customers to edit fields related to electrical vehicle charging.
+
+### Depop Redesign
+A complete redesign of Depop’s Home and Profile pages, rooted in competitor analysis, user testing, and visual consistency.  
+
+### BeReal Case Study
+Identified key pain points for a social media app that encourages authenticity through surveys and usability testing. 
+
+---
+
+## 📊 Data Science & Analytics Projects
+
+### Exploring Female Representation in MoMA
+A full data-storytelling project analyzing over 157k art records using R, Tableau, and WordPress.  
+
+### Star Charge Log Analysis Tool
+Developed tool that generates data visualizations for charging sessions of log files with 300k+ records, allowing users to filter by charging step and other attributes.
+
+### Mapping Spotify User Listening Data
+Built a data pipeline and interactive visualization of personal listening history using SQL, Python, and BeautifulSoup.  
+
+---
+
+# Tools & Technologies
+
+- **Framer** for interactive prototyping and portfolio development  
+- **Figma** for UX/UI design  
+- **R / Python / SQL** for analysis and modeling  
+- **Tableau** for dashboards  

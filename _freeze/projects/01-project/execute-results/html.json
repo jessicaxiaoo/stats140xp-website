@@ -1,9 +1,11 @@
 {
-  "hash": "c9e0e1d9c13c91e5e0e9ff928ff02206",
+  "hash": "bf5d91a3189133737af297daa7d42c5a",
   "result": {
     "engine": "knitr",
-    "markdown": "---\ntitle: Project 1\n---\n\nSome complicated stats roject\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrunif(10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1] 0.7272898 0.8970024 0.7649899 0.9144700 0.9790479 0.3781947 0.3042756\n [8] 0.4087526 0.7682477 0.8013086\n```\n\n\n:::\n:::\n",
-    "supporting": [],
+    "markdown": "---\ntitle: Portfolio with Framer\nsubtitle: Portfolio showcasing my design and data projects built using Framer!\nimage: images/proj1.png\n---\n\nSome complicated stats roject\n\n\n::: {.cell}\n\n```{.r .cell-code}\nrunif(10)\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n [1] 0.821318634 0.668743886 0.270525161 0.027504614 0.811434754 0.001148569\n [7] 0.483058213 0.666796445 0.044556093 0.383900186\n```\n\n\n:::\n:::\n",
+    "supporting": [
+      "01-project_files"
+    ],
     "filters": [
       "rmarkdown/pagebreak.lua"
     ],

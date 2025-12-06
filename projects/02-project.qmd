@@ -1,9 +1,14 @@
 ---
-title: Project 2
+title: "Star Charge Log Analysis"
+subtitle: "EV charging behavior analysis using large-scale log data"
+image: images/graph_session_12-2.png
 ---
 
-Some complicated stats roject
+# Overview
 
-```{r}
-rnorm(100) |> hist()
-```
+[🔗 **View the full GitHub repository**](https://github.com/jessicaxiaoo/Star-Charge-Log-Analysis)
+
+This project analyzes **300K+ EV charging log records** to uncover usage patterns, charging-step behavior, and potential anomalies.  
+I built reusable Python pipelines to automate cleaning, aggregation, and visualization, reducing engineering analysis time and improving interpretability.
+
+---
