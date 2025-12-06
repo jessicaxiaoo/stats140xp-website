@@ -1,0 +1,15 @@
+{
+  "hash": "4ee15a0438aae697c0c606aaf3d23f24",
+  "result": {
+    "engine": "knitr",
+    "markdown": "---\ntitle: \"About\"\ntoc: false\n---\n\nAbout this site\n\n\n::: {.cell}\n\n```{.r .cell-code}\n1 + 1\n```\n\n::: {.cell-output .cell-output-stdout}\n\n```\n[1] 2\n```\n\n\n:::\n:::\n\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
